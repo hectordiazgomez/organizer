@@ -37,7 +37,7 @@ const TextAreaGrid = () => {
                 </div>
 </div>
 <div className='flex justify-center'>
-                <div className="mt-10 w-4/5 grid grid-cols-2">
+                <div className="mt-10 pb-32 w-4/5 grid grid-cols-2">
                     <div>{processText(text1)}</div>
                     <div>{processText(text2)}</div>
                 </div>
