@@ -16,7 +16,7 @@ const TextAreaGrid = () => {
                 <div className="grid pt-12 w-4/5 sm:grid-cols-2 gap-4">
 <div >
                         <textarea
-                            className="border  outline-none rounded border-gray-300 p-2"
+                            className="border w-full outline-none rounded border-gray-300 p-2"
                             value={text1}
                             onChange={(e) => setText1(e.target.value)}
                             placeholder="Enter text here"
@@ -25,7 +25,7 @@ const TextAreaGrid = () => {
 </div>
 <div>
                         <textarea
-                            className="border outline-none rounded border-gray-300 p-2"
+                            className="border w-full outline-none rounded border-gray-300 p-2"
                             value={text2}
                             rows={12}
                             onChange={(e) => setText2(e.target.value)}
