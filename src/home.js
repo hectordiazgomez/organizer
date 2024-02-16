@@ -14,20 +14,26 @@ const TextAreaGrid = () => {
         <div>
 <div className='flex justify-center'>
                 <div className="grid pt-12 w-4/5 sm:grid-cols-2 gap-4">
-                    <textarea
-                        className="border  outline-none rounded border-gray-300 p-2"
-                        value={text1}
-                        onChange={(e) => setText1(e.target.value)}
-                        placeholder="Enter text here"
-                        rows={12}
-                    />
-                    <textarea
-                        className="border outline-none rounded border-gray-300 p-2"
-                        value={text2}
-                        rows={12}
-                        onChange={(e) => setText2(e.target.value)}
-                        placeholder="Enter text here"
-                    />
+<div >
+                        <label className='text-gray-500 font-semibold pb-2'>Awajun</label>
+                        <textarea
+                            className="border  outline-none rounded border-gray-300 p-2"
+                            value={text1}
+                            onChange={(e) => setText1(e.target.value)}
+                            placeholder="Enter text here"
+                            rows={12}
+                        />
+</div>
+<div>
+<label className='text-gray-500 font-semibold pb-2'>Español</label>
+                        <textarea
+                            className="border outline-none rounded border-gray-300 p-2"
+                            value={text2}
+                            rows={12}
+                            onChange={(e) => setText2(e.target.value)}
+                            placeholder="Enter text here"
+                        />
+</div>
                 </div>
 </div>
 <div className='flex justify-center'>
